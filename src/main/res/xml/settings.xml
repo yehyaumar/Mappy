@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <Preference android:title="Change Password"
+        android:summary="Change master password of the app"
+        android:key="password"
+        />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="verification"
+        android:summaryOff="Enable verification"
+        android:summaryOn="Disable verification"
+        android:switchTextOff='\\*'
+
+        android:title="Verification" />
+</PreferenceScreen>

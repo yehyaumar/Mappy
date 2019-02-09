@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.yehyaumar.mappy.SaveActivity">
+
+    <ImageView
+        android:id="@+id/lock"
+        style="@style/LockStyle"
+        android:contentDescription="@string/app_name"
+        />
+    <TextView
+        android:id="@+id/titleTxt"
+        android:text="@string/app_name"
+        style="@style/TitleMappy"
+        android:layout_below="@id/lock"
+        />
+
+    <TextView
+        android:id="@+id/subText"
+        style="@style/TitleMappy.TitleDetails.SubText"
+        android:text="@string/sub_txt"
+        android:layout_below="@id/titleTxt"
+        />
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subText"
+        android:layout_centerHorizontal="true"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/whitish">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/version"
+                android:textColor="@color/primaryBlack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/aboutApp"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/version"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/aboutApp"
+                android:textColor="@color/primaryBlack"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/credits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/whitish"
+        android:gravity="center"
+        android:text="@string/credits"
+        android:textColor="@color/primaryBlack"
+        android:textSize="18sp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"/>
+
+
+
+</RelativeLayout>

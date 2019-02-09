@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#15798a</color>
+    <color name="colorPrimaryDark">#15798a</color>
+    <color name="colorAccent">#263238</color>
+    <color name="pressedBtn">#455a64</color>
+    <color name="primaryBlack">#37474f</color>
+    <color name="whitish">#eceff1</color>
+    <color name="whitish_selected">#b4cad8</color>
+
+    <color name="sub_txt">#37474f</color>
+</resources>

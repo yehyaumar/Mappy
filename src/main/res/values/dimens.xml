@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="lock_margin_top">32dp</dimen>
+    <dimen name="title_mappy_size">54sp</dimen>
+    <dimen name="subtitle_txt_size">16sp</dimen>
+    <dimen name="title_detail_size">32sp</dimen>
+    <dimen name="title_margin_top">16dp</dimen>
+    <dimen name="loginbtn_txtsize">24sp</dimen>
+    <dimen name="verify_btn_textsize">18sp</dimen>
+
+
+    <dimen name="details_txt_size">20sp</dimen>
+    <dimen name="user_pass_padding">16dp</dimen>
+    <dimen name="web_app_padding">8dp</dimen>
+
+    <dimen name="details_linlayout_margin">32dp</dimen>
+</resources>

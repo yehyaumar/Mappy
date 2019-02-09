@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yehyaumar.mappy.ViewActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/edit_btn">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/lock"
+                style="@style/LockStyle"
+                android:contentDescription="@string/app_name"
+                />
+
+            <TextView
+                style="@style/TitleMappy.TitleDetails"
+                android:id="@+id/titleTxt"
+                android:text="@string/detail_saved"
+                android:layout_below="@id/lock"
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleTxt"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/details_linlayout_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/DetailTextView.WebAppView"
+                    android:id="@+id/web_app"
+                    />
+
+                <TextView
+                    style="@style/DetailTextView.UserPassView"
+                    android:id="@+id/uname"
+                    />
+
+                <TextView
+                    style="@style/DetailTextView.UserPassView"
+                    android:id="@+id/pass"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <Button
+        style="@style/CustomButton"
+        android:id="@+id/edit_btn"
+        android:text="@string/edit"
+        />
+</RelativeLayout>

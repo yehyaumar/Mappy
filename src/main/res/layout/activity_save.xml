@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context="com.yehyaumar.mappy.SaveActivity">
+
+    <ImageView
+        android:id="@+id/lock"
+        style="@style/LockStyle"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        style="@style/TitleMappy.TitleDetails"
+        android:id="@+id/titleTxt"
+        android:text="@string/detail_saved"
+        android:layout_below="@id/lock"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTxt"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/web_app"
+            android:hint="@string/webapp"
+            style="@style/InputTxtBox" />
+
+        <EditText
+            android:id="@+id/uname"
+            android:hint="@string/uname"
+            style="@style/InputTxtBox" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:hint="@string/pass"
+            style="@style/InputTxtBox" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_btn"
+        style="@style/CustomButton"
+        android:text="@string/save" />
+
+</RelativeLayout>

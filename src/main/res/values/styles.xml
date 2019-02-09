@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionModeBackground">@color/colorPrimary</item>
+        <item name="android:windowBackground">@drawable/bg_</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="LockStyle">
+        <item name="android:src">@mipmap/lock</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/lock_margin_top</item>
+    </style>
+    <style name="TitleMappy">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/title_margin_top</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/title_mappy_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TitleMappy.TitleDetails">
+        <item name="android:textSize">@dimen/title_detail_size</item>
+        <item name="android:textColor">@color/primaryBlack</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TitleMappy.TitleDetails.SubText">
+        <item name="android:textSize">@dimen/subtitle_txt_size</item>
+
+    </style>
+
+    <style name="CustomButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@drawable/custom_btn</item>
+        <item name="android:textColor">@color/whitish</item>
+        <item name="android:textSize">@dimen/loginbtn_txtsize</item>
+    </style>
+
+    <style name="CustomButton.VerifyBtn">
+        <item name="android:textSize">@dimen/verify_btn_textsize</item>
+    </style>
+    <style name="CustomButton.VerifyBtn.YesNoBtn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="DetailTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/details_txt_size</item>
+    </style>
+
+    <style name="DetailTextView.WebAppView">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:padding">@dimen/web_app_padding</item>
+    </style>
+
+    <style name="DetailTextView.UserPassView">
+        <item name="android:background">@color/whitish</item>
+        <item name="android:padding">@dimen/user_pass_padding</item>
+    </style>
+
+    <style name="InputTxtBox">
+        <item name="android:layout_width">190dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:background">@drawable/box</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_marginTop">@dimen/details_linlayout_margin</item>
+        <item name="android:inputType">text</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="InputTxtBox.VerifyTxtBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:layout_marginRight">32dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="TitleDialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+</resources>

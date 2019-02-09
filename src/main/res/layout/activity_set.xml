@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yehyaumar.mappy.SetActivity">
+
+    <ImageView
+        android:id="@+id/lock"
+        style="@style/LockStyle"
+        android:contentDescription="@string/app_name"
+        />
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:text="@string/app_name"
+        style="@style/TitleMappy"
+        android:layout_below="@id/lock"
+        />
+
+    <TextView
+        android:id="@+id/subText"
+        style="@style/TitleMappy.TitleDetails.SubText"
+        android:text="@string/sub_txt"
+        android:layout_below="@id/titleTxt"
+        />
+
+    <EditText
+        android:id="@+id/setPassField"
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/subText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="@drawable/box"
+        android:hint="@string/set_pass"
+        android:padding="8dp">
+        <requestFocus/>
+    </EditText>
+
+
+    <Button
+        style="@style/CustomButton"
+        android:id="@+id/set_btn"
+        android:text="@string/set"
+        />
+
+
+
+</RelativeLayout>
